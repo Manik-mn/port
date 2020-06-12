@@ -1,0 +1,438 @@
+/* 
+(Small devices,more then 319.98px)
+*/
+@media (min-width: 320px) and (max-width: 576px) {}
+
+/* 
+Small devices (portrait phones,less then 576px)
+*/
+
+@media (max-width: 575.98px) {
+
+.bar{
+  color: #fff;
+}
+.navbar-toggler {
+  border: none !important;
+}
+.navbar-light .navbar-nav .nav-link {
+  text-align: end;
+  margin-right: 10px;
+}
+.highlight-left h2, .highlight-right h1 {
+  font-size: 29px;
+  line-height: 38px;
+  letter-spacing: 1px;
+}
+.highlight-left {
+  padding: 60px 0;
+}
+.highlight-left h1 {
+  font-size: 52px;
+  visibility: visible;
+  margin-bottom: 39px;
+  margin-top: 189px;
+  text-align: center;
+}
+.highlight-middle img {
+  width: 100%;
+  height: 300px;
+}
+.latest-work .tittle-h1 {
+  width: 100%;
+}
+.portfolio .item {
+  padding: 20px 20px;
+}
+.circularjs {
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+.tittle-h2::before {
+  width: 14%;
+  left: 19%;
+}
+.circlebar {
+  width: 150px !important;
+  height: 150px !important;
+  margin-bottom: 74px;
+}
+.loader-bg h1 {
+  bottom: -55px;
+}
+.clint-tittle {
+  padding: 50px 0px 13px;
+}
+.clint-inner{
+  margin: 37px 0;
+}
+.sl-img {
+  margin-top: 0px;
+  margin-left: 18px;
+}
+.carousel-item p {
+  font-size: 15px;
+  padding: 0px 0px 10px 19px;
+}
+.qoute1{
+  top: 7%;
+}
+.contact-inner {
+  padding: 20px 0px 20px 17px;
+}
+
+input {
+    width: 380px;
+    padding-left: 12px;
+    margin-left: 8px;
+}
+.contact-inner-left{
+  margin-left: 12px;
+  margin-top: -20px;
+}
+label {
+  margin: 7px 0;
+}
+.parallax-window {
+  min-height: 619px;
+}
+.contact-inner-left .btn-dark {
+  right: 17px;
+}
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+  /* 
+Small devices (landscape phones, 576px and up)
+  */
+  
+  @media (min-width: 576px) and (max-width: 767.98px) {
+
+    .bar{
+      color: #fff;
+    }
+    .navbar-toggler {
+      border: none !important;
+    }
+    .navbar-light .navbar-nav .nav-link {
+      text-align: end;
+      margin-right: 10px;
+    }
+    .highlight-left h1 {
+      font-size: 42px;
+      margin-top: -10px;
+  }
+    .highlight-left h2, .highlight-right h1 {
+      font-size: 24px;
+      letter-spacing: 0px;
+      line-height: 27px;
+    }
+    .highlight-left {
+      padding: 60px 0;
+    }
+    .highlight-left h1 {
+      font-size: 40px;
+      text-align: left;
+      margin-bottom: 78px;
+      margin-top: 13px;
+
+    }
+    .highlight-middle img {
+      height: 380px;
+    }
+    .latest-work .tittle-h1 {
+      width: 100%;
+    }
+    .circlebar {
+      width: 150px !important;
+      height: 150px !important;
+      margin-bottom: 74px;
+    }
+    .loader-bg h1 {
+      bottom: -55px;
+    }
+    .clint-tittle {
+      padding: 50px 0px 13px;
+    }
+    .clint-inner{
+      margin: 37px 0;
+      width: 163px;
+    }
+    .divp h2 {
+      font-size: 21px;
+      color: #fff;
+      margin-left: 5px;
+  }
+  .clint-inner:hover .divp h2 {
+    left: 0%;
+}
+  .divp p {
+    line-height: 15px;
+    text-align: left !important;
+    padding-left: 5px;
+}
+.carousel-control-prev-icon {
+  top: 33%;
+}
+.carousel-control-next-icon {
+  top: 33%;
+}
+.sl-img {
+  margin-top: 0px;
+  margin-left: 18px;
+}
+.carousel-item p {
+  font-size: 15px;
+  padding: 0px 0px 10px 19px;
+}
+.qoute1{
+  top: 7%;
+}
+.contact-inner {
+  padding: 20px 0px 20px 17px;
+}
+
+input {
+    width: 380px;
+    padding-left: 12px;
+    margin-left: 8px;
+}
+.contact-inner-left{
+  margin-left: 12px;
+  margin-top: -20px;
+}
+label {
+  margin: 7px 0;
+}
+.parallax-window {
+  min-height: 619px;
+}
+.contact-inner-left .btn-dark {
+  right: 17px;
+}
+
+
+    
+
+
+  }
+
+
+  /* 
+Medium devices (tablets, 768px and up)
+  */
+  
+  @media (min-width: 768px) and (max-width: 991.98px) {
+
+
+
+    .latest-work .tittle-h1 {
+      width: 100%;
+    }
+    .latest-work .tittle-h1::after {
+      width: 3%;
+      height: 37%;
+      top: 84%;
+      left: 52%;
+  }
+  .latest-work .tittle-h1::after {
+    transform: rotateZ(128deg);
+}
+  .bar{
+    color: #fff;
+  }
+  .navbar-toggler {
+    border: none !important;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    text-align: end;
+    margin-right: 10px;
+  }
+  .highlight-left h1 {
+    font-size: 42px;
+    margin-top: -10px;
+}
+  .highlight-left h2, .highlight-right h1 {
+    font-size: 24px;
+    letter-spacing: 0px;
+    line-height: 27px;
+  }
+  .highlight-left {
+    padding: 60px 0;
+  }
+  .highlight-left h1 {
+    font-size: 40px;
+    text-align: left;
+    margin-bottom: 78px;
+    margin-top: 13px;
+
+  }
+  .highlight-middle img {
+    height: 380px;
+  }
+  .latest-work .tittle-h1 {
+    width: 58%;
+  }
+  .circlebar {
+    width: 150px !important;
+    height: 150px !important;
+    margin-bottom: 74px;
+  }
+  .loader-bg h1 {
+    bottom: -55px;
+  }
+  .clint-tittle {
+    padding: 50px 0px 13px;
+  }
+  .clint-inner {
+      margin: 37px 0;
+      width: 215px;
+  }
+
+  .divp h2 {
+    font-size: 21px;
+    color: #fff;
+    margin-left: 5px;
+}
+.clint-inner:hover .divp h2 {
+  left: 0%;
+}
+.divp p {
+  line-height: 15px;
+  text-align: left !important;
+  padding-left: 5px;
+}
+.carousel-control-prev-icon {
+top: 33%;
+}
+.carousel-control-next-icon {
+top: 33%;
+}
+.sl-img {
+margin-top: 0px;
+margin-left: 18px;
+}
+.carousel-item p {
+font-size: 15px;
+padding: 42px 0px 10px 19px;
+}
+.qoute{
+left: 94%;
+}
+.qoute1{
+top: 29%;
+}
+.contact-inner {
+padding: 20px 0px 20px 17px;
+}
+
+input {
+  width: 508px;
+  padding-left: 12px;
+  margin-left: 8px;
+}
+.contact-inner-left{
+margin-left: 115px;
+margin-top: -20px;
+}
+label {
+margin: 7px 0;
+}
+.parallax-window {
+min-height: 619px;
+}
+.contact-inner-left .btn-dark {
+right: 87px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  }
+
+
+  /* 
+Large devices (Desktops, 992px and up)
+  */
+  
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+
+    .latest-work .tittle-h1::after {
+      width: 3%;
+      height: 37%;
+      top: 84%;
+      left: 52%;
+  }
+  .latest-work .tittle-h1 {
+    width: 43%;
+}
+.latest-work .tittle-h1::after {
+  transform: rotateZ(129deg);
+}
+input {
+  width: 338px;
+}
+
+.contact-inner-left .btn-dark {
+right: -37px;
+top: 92%;
+}
+
+
+
+
+
+
+
+
+
+
+
+  }
+    
+
+  /* 
+Extra large devices (large desktops, 1200px and up)
+  */
+  
+  @media (min-width: 1200px) {
+
+
+
+
+
+
+  }
+  

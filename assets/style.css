@@ -1,0 +1,684 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Poiret One', cursive;
+}
+.header-top{
+    width: 100%;
+    padding-top: 10px;
+    background: #0D0105;
+}
+.header-top-left p{
+    display: inline-block;
+    margin-right: 10px;
+}
+.header-top-left .fa{
+    color: #fff;
+    font-size: 11px;
+}
+.fa-facebook, .fa-twitter, .fa-instagram{
+    font-size: 11px;
+    color: #ff0000d1;
+}
+.header-top-right .nav-item i:hover{
+    color: #000;
+    background: #ff0000d1;
+}
+.header-top-right .nav-item i{
+    width: 25px;
+    height: 25px;
+    background: #bbb;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 25px !important;
+}
+.header-top-left h6{
+    display: inline-block;
+    margin-right: 15px;
+    color: #fff;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.header-top-right .nav-item{
+    padding: 4px 2px 0px 10px;
+}
+.header{
+    width: 100%;
+    padding: 16px 0;
+    background: #8C0408;
+    position: relative;
+    z-index: 123;
+}
+.navbar{
+    padding: 0;
+}
+.navbar-light .navbar-brand h4{
+    color: #ffffffb8;
+    font-family: sen serif;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 20px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #ffffffb8;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 900;
+}
+.bg-light {
+    background-color: transparent !important;
+}
+
+.highlight{
+    width: 100%;
+    padding-top: 30px;
+    background: url(../assets/img/ww7.jpg) center top no-repeat;
+    background-size: cover;
+}
+.highlight-middle{
+    overflow: hidden;
+}
+.highlight-middle img{
+    width: 100%;
+    height: 711px;
+    margin-top: 34px;
+}
+
+.highlight-left {
+    padding: 113px 0;
+}
+.highlight-left h1{
+    font-family: 'Metal Mania', cursive;
+    font-size: 76px;
+    color: #8C0408;
+    font-weight: 900;
+    text-transform: uppercase;
+    transition: 1s ease-in-out;
+    margin-bottom: 160px;
+    margin-top: 70px;
+}
+.highlight-left h2, .highlight-right h1{
+    font-size: 29px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 43px;
+    font-family: sans-sharif;
+
+ 
+}
+.works img{
+    width: 100%;
+}
+.works{
+    padding: 15px 0;
+}
+
+.slider{
+    width: 100%;
+    background: #0e2335;
+    padding-top: 65px;
+    padding-bottom: 90px;
+    overflow: hidden;
+}
+.sl-tittle h1{
+    font-family: 'Metal Mania', cursive;
+    color: #ffffffd4;
+    font-weight: 900;
+    font-size: 23px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.carousel-item p{
+    padding: 90px 60px;
+    text-align: left;
+}
+.carousel-indicators{
+    bottom: -35px;
+}
+.carousel-indicators li{
+    width: 9px;
+    height: 9px;
+    background: brown;
+    border-radius: 50px;
+}
+.carousel-control-next-icon{
+    position: absolute;
+    right: -69px;
+}
+.carousel-control-prev-icon{
+    position: absolute;
+    left: -69px;
+}
+.carousel-item p {
+    font-size: 20px;
+    font-weight: 900;
+    color: #ffffffa3;
+    letter-spacing: 1px;
+    padding: 28px 52px 10px 43px;
+}
+.sl-img{
+    border-radius: 155px;
+    margin-top: 5px;
+    margin-left: 76px;
+}
+.qoute1{
+    position: relative;
+    top: 21%;
+    color: #ffffffcf;
+    font-size: 11px;
+    left: 3%;
+}
+.qoute{
+    position: relative;
+    left: 64%;
+    top: -22%;
+    color: #ffffffcf;
+    font-size: 11px;
+}
+/* typejs*/
+.ityped-cursor {
+    font-size: 60px;
+    opacity: 1;
+    -webkit-animation:  blink 0.3s infinite;
+    -moz-animation: blink 0.3s infinite;
+    animation: blink 0.3s infinite;
+    animation-direction: alternate;
+    color: brown;
+  }
+
+  @keyframes blink {
+    100% {
+      opacity: 0;
+    }
+  }
+
+  @-webkit-keyframes blink {
+    100% {
+      opacity: 0;
+    }
+  }
+
+  @-moz-keyframes blink {
+    100% {
+      opacity: 0;
+    }
+  }
+/* typejs*/
+
+
+/* mixitup*/
+.latest-work{
+    width: 100%;
+    padding-top: 42px;
+    padding-bottom: 113px;
+    background: #000;
+}
+.latest-work .tittle-h1{
+    width: 36%;
+    height: 43px;
+    background: #585858;
+    border: 2px solid #bbb;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 40px;
+    box-shadow: inset 0px 4px 0px 5px #00000047;
+}
+.latest-work .tittle-h1 h1{
+    font-size: 32px;
+    text-transform: uppercase;
+    color: #ffffffd6;
+    position: relative;
+    font-family: sen serif;
+}
+.latest-work .tittle-h1::after {
+    content: "";
+    position: absolute;
+    width: 4%;
+    height: 37%;
+    top: 84%;
+    left: 47%;
+    background: #585858;
+    transform: rotateZ(141deg);
+    border-top: 2px solid #bbb;
+    border-right: 2px solid #bbb;
+}
+
+.filter{
+    width: 100%;
+    padding: 40px 0;
+}
+.padd{
+    padding: 7px;
+}
+.portfolio .item{
+    width: 100%;
+    position: relative;
+}
+.item-hover{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #dc3545a1;
+    text-align: center;
+    transform: scale(0);
+    transition: .3s;
+}
+.portfolio .item:hover .item-hover{
+    transform: scale(1);
+}
+.portfolio .item{
+    overflow: hidden;
+    border-radius: 20px;
+}
+.portfolio .item:hover img{
+    transform: scale(1.2);
+    overflow: hidden;
+    transition: all .7s ease-in-out;
+}
+.portfolio .item:hover{
+    box-shadow: 0px 1px 15px #0009;
+}
+.item-hover .fa{
+    color: #fff;
+    font-size: 60px;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.box{
+    width: 286px;
+    height: 277px;
+    background: #00DEE5;
+    border-right: 14px solid #fff;
+    border-bottom: 14px solid #fff;
+}
+.box img{
+    margin-left: 12px;
+    margin-top: 12px;
+}
+/* mixitup*/
+
+/*parallax scroll image*/
+.parallax-window {
+    min-height: 531px;
+    background: transparent;
+    margin-top: -78px;
+}
+.tittle{
+    width: 100%;
+    margin-top: 135px;
+}
+.tittle h1{
+    font-family: 'Metal Mania', cursive;
+    font-size: 51px;
+    color: #ffffff6e;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.contact{
+    margin-top: -40px;
+}
+.contact-inner{
+    padding: 20px 0;
+}
+input {
+    overflow: visible;
+    width: 430px;
+    background: transparent;
+    margin-left: 19px;
+    padding: 10px 10px 13px 0px;
+    color: #fff;
+    border: none;
+    border-bottom: 1px solid #ffffff2e;
+}
+.lt{
+    letter-spacing: 1.5px;
+}
+textarea{
+    border: none;
+    margin-top: 16px;
+    background: transparent;
+    color: #fff;
+    padding-left: 10px;
+    border-bottom: 1px solid #ffffff2e;
+}
+.contact-inner-left {
+    margin-top: 10px;
+}
+.contact-inner-left .btn-dark {
+    position: absolute;
+    right: 37px;
+    padding: 5px 75px;
+    background: transparent;
+    color: #ffffff6e;
+    top: 98%;
+}
+.contact-inner-left .btn-dark:hover {
+    border: 0.5px solid #ffffff2e;
+}
+/*parallax scroll image*/
+.tox-progress{
+    border: 10px solid red;
+    border-radius: 50%;
+}
+.tox-progress::before{
+    content: "";
+    position: absolute;
+    width: 100;
+}
+
+.circular-progress-bar {
+    position: relative;
+    margin: 0 auto;
+    transform: rotate(-90deg);
+  }
+  
+  .progress-percentage, .progress-text {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(90deg);
+    text-align: center;
+    padding: 0px 60px;
+  }
+  
+  .progress-percentage {
+    font-size: 60px;
+    left: 60%;
+  }
+  
+  .progress-text {
+    left: 35%;
+    color: #585858;
+    font-size: 21px;
+  }
+
+
+/*circular progressbar*/
+.circularjs{
+	width: 100%;
+    padding: 70px 0;
+    padding-bottom: 171px;
+    background: #2d0528;
+}
+.circularjs-inner{
+    width: 100%;
+    margin-left: 30px;
+}
+.tittle-h2{
+    width: 100%;
+    margin-bottom: 98px;
+    position: relative;
+}
+.tittle-h2::before{
+    width: 11%;
+    height: 7%;
+    content: "";
+    position: absolute;
+    left: 35%;
+    bottom: -23px;
+    background: #6f755fa1;
+    border-radius: 57px;
+}
+.tittle-h2 h2{
+    font-size: 42px;
+    font-weight: 600;
+    color: #624c4a;
+}
+.circlebar{
+	width: 400px;
+	height: 400px;
+}
+.loader-bg{
+	width: 100%;
+	position: relative;
+}
+.loader-bg::after{
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	border: 4px solid #ddd;
+	border-radius: 50%;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+.loader-bg h1{
+	position: absolute;
+	bottom: -94px;
+	font-weight: 700;
+    color: brown;
+    font-size: 25px;
+}
+.text{
+	font-size: 47px !important;
+	color: #800260 !important;
+}
+
+.yellow .loader-spinner{
+    border-color:#d2c315;
+}
+.green .loader-spinner{
+    border-color:green;
+}
+.purple .loader-spinner{
+    border-color:purple;
+}
+.blue .loader-spinner{
+    border-color:blue;
+}
+
+/*circular progressbar*/
+
+
+
+
+.clint{
+	width: 100%;
+	padding-bottom: 90px;
+    position: relative;
+    overflow: hidden;
+    background: #cccbc84f;
+}
+.clint-tittle{
+    width: 100%;
+    padding: 50px 0;
+}
+.clint-tittle h1{
+    font-family: 'Metal Mania', cursive;
+    font-size: 25px;
+    font-weight: 700;
+    color: #0009;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.clint-inner{
+	padding: 40px 0;
+    width: 343px;
+    height: 316px;
+	background: #bbb;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+    box-shadow: 0px 0px 2px 5px #000;
+}
+
+.img-h{
+    width: 335px;
+    height: 308px;
+    position: absolute;
+    top: -47%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    transition: .7s ease-in-out;
+}
+.clint-inner::before{
+	content: "";
+	width: 100%;
+	height: 100%;
+	background: #bbb;
+	top: 0;
+	left: 0;
+	position: absolute;
+	transition: .7s ease-in-out;
+}
+.clint-inner:hover::before{
+    visibility: hidden;
+
+}
+.clint-inner:hover .img-h{
+    top: -35%;
+    left: 49%;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+}
+
+.divp{
+	position: relative;
+	top: 40%;
+    transition: .6s ease-in-out;
+    overflow: hidden;
+}
+.divp h2{
+    font-family: 'Metal Mania', cursive;
+    position: relative;
+    left: 999%;
+    transition: .6s ease-in-out;
+    color: #00000070;
+    font-weight: 700;
+}
+.divp p{
+    font-family: 'Metal Mania', cursive;
+    position: relative;
+    right: 999%;
+    transition: .6s ease-in-out;
+    padding: 0px 15px;
+    color: #00000075;
+    font-weight: 700;
+}
+.clint-inner:hover .divp h2{
+    left: 25%;
+}
+.clint-inner:hover .divp p{
+    right: 0%;
+    text-align: center;
+}
+
+
+
+.footer{
+    width: 100%;
+    background: #1E1E1E;
+    padding: 70px 0;
+}
+.footer-inner p{
+    color: #fff;
+    font-size: 14px;
+}
+
+.nav-item{
+    padding: 0px 5px;
+}
+ul li a{
+   position: relative;
+}
+ul li a:hover{
+    color: rgb(206, 33, 33);
+}
+ul li a span:first-child::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 8px;
+    height: 8px;
+    background: transparent;
+    border-top: 2px solid rgb(206, 33, 33);
+    border-left: 2px solid rgb(206, 33, 33);
+    transition: .2s;
+    opacity: 0;
+}
+ul li a span:first-child::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 8px;
+    height: 8px;
+    background: transparent;
+    border-top: 2px solid rgb(206, 33, 33);
+    border-right: 2px solid rgb(206, 33, 33);
+    transition: .2s;
+    opacity: 0;
+}
+ul li a span:last-child::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 8px;
+    height: 8px;
+    background: transparent;
+    border-bottom: 2px solid rgb(206, 33, 33);
+    border-left: 2px solid rgb(206, 33, 33);
+    transition: .2s;
+    opacity: 0;
+}
+ul li a span:last-child::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 8px;
+    height: 8px;
+    background: transparent;
+    border-bottom: 2px solid rgb(206, 33, 33);
+    border-right: 2px solid rgb(206, 33, 33);
+    transition: .2s;
+    opacity: 0;
+}
+ul li a:hover span:first-child::before{
+    top: -7px;
+    left: -7px;
+    opacity: 1;
+}
+ul li a:hover span:first-child::after{
+    top: -7px;
+    right: -7px;
+    opacity: 1;
+}
+ul li a:hover span:last-child::before{
+    bottom: -7px;
+    left: -7px;
+    opacity: 1;
+}
+ul li a:hover span:last-child::after{
+    bottom: -7px;
+    right: -7px;
+    opacity: 1;
+}
+
+
+
+
+
+
+
